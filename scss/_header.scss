@@ -1,0 +1,28 @@
+header {
+    nav {
+        background-color: $color_fuente;
+
+        img{
+            border-radius: 50%;
+            border: white 3px solid;
+           
+        }
+
+        ul {
+            
+            li {
+                background-color: $color_fuente;
+                
+                 a {
+                    
+                    color: rgb(14, 13, 13);
+                        &:hover{
+                        font-weight: bold;
+                        
+                    }
+                }
+            }
+        }
+
+    }
+}

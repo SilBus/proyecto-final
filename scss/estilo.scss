@@ -1,0 +1,33 @@
+$color_fuente: #ffd8c8;
+$estilo_fuente: cursive;
+
+@mixin galeria {
+    padding: 25px;
+
+    img {
+        width: 200px;
+        height: 170px;
+    }
+}
+
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+@import "header";
+@import "main";
+@import "mainContacto";
+@import "footer";
+
+
+.ws {
+    grid-area: ws;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+}

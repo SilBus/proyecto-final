@@ -1,0 +1,25 @@
+.bg-contact{
+    background-color: rgba(3, 3, 3, 0.438);
+    .form{
+        max-width: 25em;
+        padding: 1.3em;
+        margin: 0 auto;
+        background-color: rgba(120, 119, 123, 0.3);
+        font-weight: bold;
+        border-radius: 0.5em;
+        box-shadow: inset 1px 1px 22px 4px rgba(0, 0, 0, 0.85);
+    
+    }
+    .text-color{
+        color: $color_fuente;
+    }
+    .text-color1{
+        color: $color_fuente;
+        font-size: 1.3rem;
+    }
+    .text-dise{
+        color: $color_fuente;
+        font-size: 1.5rem;
+        font-weight:500;
+    }
+}

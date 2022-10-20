@@ -1,0 +1,112 @@
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: white; }
+
+header nav {
+  background-color: #ffd8c8; }
+  header nav img {
+    border-radius: 50%;
+    border: white 3px solid; }
+  header nav ul li {
+    background-color: #ffd8c8; }
+    header nav ul li a {
+      color: #0e0d0d; }
+      header nav ul li a:hover {
+        font-weight: bold; }
+
+main h2 {
+  text-align: center;
+  margin: 0.5em; }
+
+main p {
+  text-align: center;
+  font-size: 1.1rem; }
+
+main .tipografiaInd h1 {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 5rem;
+  margin-top: 50px;
+  text-align: center; }
+
+main .tipografiaInd h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+  font-weight: bold; }
+
+main .tipografiaInd p {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.9rem; }
+
+main .bord {
+  box-shadow: 5px 16px #ffd8c8; }
+
+main .main {
+  grid-area: main; }
+
+main #galeria {
+  padding: 25px; }
+  main #galeria img {
+    width: 200px;
+    height: 170px; }
+
+main .container .card-altura {
+  height: 200px;
+  width: 150px;
+  text-align: center; }
+
+.transf {
+  transition: all 1s ease; }
+  .transf:hover {
+    transform: scale(1.1, 1.1); }
+
+.boxSha {
+  box-shadow: 0 0 25px #ffd8c8; }
+  .boxSha:hover {
+    box-shadow: 0 0 5px #ffd8c8, 0 0 25px #ffd8c8, 0 0 50px #ffd8c8, 0 0 100px #ffd8c8; }
+
+.bg-contact {
+  background-color: rgba(3, 3, 3, 0.438); }
+  .bg-contact .form {
+    max-width: 25em;
+    padding: 1.3em;
+    margin: 0 auto;
+    background-color: rgba(120, 119, 123, 0.3);
+    font-weight: bold;
+    border-radius: 0.5em;
+    box-shadow: inset 1px 1px 22px 4px rgba(0, 0, 0, 0.85); }
+  .bg-contact .text-color {
+    color: #ffd8c8; }
+  .bg-contact .text-color1 {
+    color: #ffd8c8;
+    font-size: 1.3rem; }
+  .bg-contact .text-dise {
+    color: #ffd8c8;
+    font-size: 1.5rem;
+    font-weight: 500; }
+
+footer .container-fluid {
+  font-size: 1.1rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #ffd8c8; }
+  footer .container-fluid ul {
+    list-style: none;
+    text-align: center; }
+    footer .container-fluid ul li {
+      display: block;
+      padding: 2px; }
+      footer .container-fluid ul li a {
+        text-decoration: none;
+        color: #080808; }
+        footer .container-fluid ul li a:hover {
+          font-weight: bold;
+          color: black; }
+
+.ws {
+  grid-area: ws;
+  position: fixed;
+  bottom: 20px;
+  right: 10px; }
